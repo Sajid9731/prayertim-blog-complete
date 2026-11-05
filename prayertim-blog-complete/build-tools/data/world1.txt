@@ -1,0 +1,767 @@
+# Format: @Country|METHOD|SCHOOL(S=standard,H=hanafi)|default IANA timezone
+# City lines: Name[~Alias]|lat|lng[|timezone override]   (first city = main city)
+@Afghanistan|KARACHI|H|Asia/Kabul
+Kabul|34.53|69.17
+Kandahar|31.61|65.71
+Herat|34.35|62.20
+Mazar-i-Sharif|36.71|67.11
+Jalalabad|34.43|70.45
+Kunduz|36.73|68.87
+@Albania|MWL|S|Europe/Tirane
+Tirana|41.33|19.82
+Durres|41.32|19.45
+Shkoder|42.07|19.51
+Vlore|40.47|19.49
+Elbasan|41.11|20.08
+@Algeria|MWL|S|Africa/Algiers
+Algiers|36.75|3.06
+Oran|35.70|-0.63
+Constantine|36.37|6.61
+Annaba|36.90|7.77
+Blida|36.47|2.83
+Setif|36.19|5.41
+Batna|35.56|6.17
+Tlemcen|34.88|-1.32
+Ouargla|31.95|5.32
+Bejaia|36.75|5.08
+@Andorra|MWL|S|Europe/Andorra
+Andorra la Vella|42.51|1.52
+@Angola|MWL|S|Africa/Luanda
+Luanda|-8.84|13.23
+Huambo|-12.78|15.74
+Lobito|-12.35|13.54
+Benguela|-12.58|13.41
+@Antigua and Barbuda|ISNA|S|America/Antigua
+Saint John's|17.12|-61.85
+@Argentina|MWL|S|America/Argentina/Buenos_Aires
+Buenos Aires|-34.60|-58.38
+Cordoba|-31.42|-64.18
+Rosario|-32.94|-60.65
+Mendoza|-32.89|-68.84
+Tucuman|-26.81|-65.22
+Salta|-24.78|-65.41
+@Armenia|MWL|S|Asia/Yerevan
+Yerevan|40.18|44.51
+Gyumri|40.79|43.85
+@Australia|MWL|S|Australia/Sydney
+Canberra|-35.28|149.13
+Sydney|-33.87|151.21
+Melbourne|-37.81|144.96|Australia/Melbourne
+Brisbane|-27.47|153.03|Australia/Brisbane
+Perth|-31.95|115.86|Australia/Perth
+Adelaide|-34.93|138.60|Australia/Adelaide
+Gold Coast|-28.02|153.40|Australia/Brisbane
+Newcastle|-32.93|151.78
+Hobart|-42.88|147.33|Australia/Hobart
+Darwin|-12.46|130.84|Australia/Darwin
+Cairns|-16.92|145.77|Australia/Brisbane
+Geelong|-38.15|144.36|Australia/Melbourne
+@Austria|MWL|S|Europe/Vienna
+Vienna|48.21|16.37
+Graz|47.07|15.44
+Linz|48.31|14.29
+Salzburg|47.80|13.04
+Innsbruck|47.27|11.39
+@Azerbaijan|MWL|S|Asia/Baku
+Baku|40.41|49.87
+Ganja|40.68|46.36
+Sumqayit|40.59|49.67
+Mingachevir|40.77|47.05
+@Bahamas|ISNA|S|America/Nassau
+Nassau|25.05|-77.35
+@Bahrain|MAKKAH|S|Asia/Bahrain
+Manama|26.23|50.59
+Riffa|26.13|50.56
+Muharraq|26.26|50.61
+@Bangladesh|KARACHI|H|Asia/Dhaka
+Dhaka~Dacca|23.81|90.41
+Chittagong|22.36|91.78
+Khulna|22.82|89.55
+Rajshahi|24.37|88.60
+Sylhet|24.90|91.87
+Barisal|22.70|90.37
+Rangpur|25.75|89.25
+Comilla|23.46|91.18
+Mymensingh|24.75|90.41
+Narayanganj|23.62|90.50
+Gazipur|23.99|90.42
+Bogra|24.85|89.37
+Cox's Bazar|21.45|91.98
+Jessore|23.17|89.21
+@Barbados|ISNA|S|America/Barbados
+Bridgetown|13.10|-59.61
+@Belarus|MWL|S|Europe/Minsk
+Minsk|53.90|27.57
+Gomel|52.44|30.98
+Brest|52.10|23.70
+Grodno|53.68|23.83
+@Belgium|MWL|S|Europe/Brussels
+Brussels|50.85|4.35
+Antwerp|51.22|4.40
+Ghent|51.05|3.72
+Liege|50.63|5.57
+Charleroi|50.41|4.44
+Bruges|51.21|3.22
+@Belize|ISNA|S|America/Belize
+Belmopan|17.25|-88.77
+Belize City|17.50|-88.20
+@Benin|MWL|S|Africa/Porto-Novo
+Porto-Novo|6.50|2.63
+Cotonou|6.37|2.43
+Parakou|9.34|2.63
+@Bhutan|KARACHI|S|Asia/Thimphu
+Thimphu|27.47|89.64
+Phuntsholing|26.85|89.39
+@Bolivia|MWL|S|America/La_Paz
+Sucre|-19.03|-65.26
+La Paz|-16.50|-68.15
+Santa Cruz|-17.78|-63.18
+Cochabamba|-17.39|-66.16
+El Alto|-16.50|-68.19
+@Bosnia and Herzegovina|MWL|S|Europe/Sarajevo
+Sarajevo|43.86|18.41
+Banja Luka|44.77|17.19
+Tuzla|44.54|18.67
+Zenica|44.20|17.91
+Mostar|43.34|17.81
+Bihac|44.82|15.87
+@Botswana|MWL|S|Africa/Gaborone
+Gaborone|-24.65|25.91
+Francistown|-21.17|27.51
+Maun|-19.98|23.42
+@Brazil|MWL|S|America/Sao_Paulo
+Brasilia|-15.79|-47.88
+Sao Paulo|-23.55|-46.63
+Rio de Janeiro|-22.91|-43.17
+Salvador|-12.97|-38.51|America/Bahia
+Fortaleza|-3.73|-38.53|America/Fortaleza
+Belo Horizonte|-19.92|-43.94
+Manaus|-3.12|-60.02|America/Manaus
+Curitiba|-25.43|-49.27
+Recife|-8.05|-34.88|America/Recife
+Porto Alegre|-30.03|-51.23
+Foz do Iguacu|-25.55|-54.59
+@Brunei|SINGAPORE|S|Asia/Brunei
+Bandar Seri Begawan|4.89|114.94
+Kuala Belait|4.58|114.23
+@Bulgaria|MWL|S|Europe/Sofia
+Sofia|42.70|23.32
+Plovdiv|42.14|24.75
+Varna|43.21|27.91
+Burgas|42.50|27.47
+Shumen|43.27|26.93
+@Burkina Faso|MWL|S|Africa/Ouagadougou
+Ouagadougou|12.37|-1.52
+Bobo-Dioulasso|11.18|-4.30
+@Burundi|MWL|S|Africa/Bujumbura
+Gitega|-3.43|29.93
+Bujumbura|-3.38|29.36
+@Cabo Verde|MWL|S|Atlantic/Cape_Verde
+Praia|14.93|-23.51
+Mindelo|16.89|-24.99
+@Cambodia|MWL|S|Asia/Phnom_Penh
+Phnom Penh|11.56|104.93
+Siem Reap|13.36|103.86
+Battambang|13.10|103.20
+@Cameroon|MWL|S|Africa/Douala
+Yaounde|3.85|11.50
+Douala|4.05|9.70
+Garoua|9.30|13.40
+Maroua|10.59|14.32
+@Canada|ISNA|S|America/Toronto
+Ottawa|45.42|-75.70
+Toronto|43.65|-79.38
+Montreal|45.50|-73.57
+Vancouver|49.28|-123.12|America/Vancouver
+Calgary|51.05|-114.07|America/Edmonton
+Edmonton|53.55|-113.49|America/Edmonton
+Mississauga|43.59|-79.64
+Winnipeg|49.90|-97.14|America/Winnipeg
+Halifax|44.65|-63.58|America/Halifax
+Quebec City|46.81|-71.21
+Hamilton|43.26|-79.87
+Saskatoon|52.13|-106.67|America/Regina
+Regina|50.45|-104.62|America/Regina
+St. John's|47.56|-52.71|America/St_Johns
+Surrey|49.19|-122.85|America/Vancouver
+@Central African Republic|MWL|S|Africa/Bangui
+Bangui|4.36|18.56
+@Chad|MWL|S|Africa/Ndjamena
+N'Djamena|12.13|15.06
+Moundou|8.57|16.08
+Abeche|13.83|20.83
+@Chile|MWL|S|America/Santiago
+Santiago|-33.45|-70.67
+Valparaiso|-33.05|-71.62
+Concepcion|-36.83|-73.05
+Antofagasta|-23.65|-70.40
+Punta Arenas|-53.16|-70.91|America/Punta_Arenas
+@China|MWL|S|Asia/Shanghai
+Beijing~Peking|39.90|116.41
+Shanghai|31.23|121.47
+Guangzhou|23.13|113.26
+Shenzhen|22.54|114.06
+Chengdu|30.57|104.07
+Wuhan|30.59|114.31
+Xi'an|34.34|108.94
+Hangzhou|30.27|120.15
+Chongqing|29.56|106.55
+Tianjin|39.34|117.36
+Nanjing|32.06|118.80
+Urumqi|43.83|87.62|Asia/Urumqi
+Kashgar|39.47|75.99|Asia/Urumqi
+Lanzhou|36.06|103.83
+Yinchuan|38.49|106.23
+Hong Kong|22.32|114.17|Asia/Hong_Kong
+Harbin|45.80|126.53
+Kunming|25.04|102.71
+@Colombia|MWL|S|America/Bogota
+Bogota|4.71|-74.07
+Medellin|6.25|-75.56
+Cali|3.45|-76.53
+Barranquilla|10.96|-74.80
+Cartagena|10.39|-75.48
+Maicao|11.38|-72.24
+@Comoros|MWL|S|Indian/Comoro
+Moroni|-11.70|43.26
+Mutsamudu|-12.17|44.40
+@Republic of the Congo|MWL|S|Africa/Brazzaville
+Brazzaville|-4.27|15.28
+Pointe-Noire|-4.78|11.86
+@Democratic Republic of the Congo|MWL|S|Africa/Kinshasa
+Kinshasa|-4.44|15.27
+Lubumbashi|-11.66|27.48|Africa/Lubumbashi
+Mbuji-Mayi|-6.15|23.60|Africa/Lubumbashi
+Kisangani|0.52|25.20|Africa/Lubumbashi
+Goma|-1.68|29.22|Africa/Lubumbashi
+@Costa Rica|ISNA|S|America/Costa_Rica
+San Jose|9.93|-84.08
+Limon|9.99|-83.04
+@Cote d'Ivoire|MWL|S|Africa/Abidjan
+Yamoussoukro|6.82|-5.28
+Abidjan|5.36|-4.01
+Bouake|7.69|-5.03
+Korhogo|9.46|-5.63
+@Croatia|MWL|S|Europe/Zagreb
+Zagreb|45.81|15.98
+Split|43.51|16.44
+Rijeka|45.33|14.44
+Osijek|45.55|18.69
+@Cuba|ISNA|S|America/Havana
+Havana|23.11|-82.37
+Santiago de Cuba|20.02|-75.83
+@Cyprus|MWL|S|Asia/Nicosia
+Nicosia|35.17|33.36
+Limassol|34.68|33.04
+Larnaca|34.92|33.62
+Paphos|34.78|32.42
+@Czechia|MWL|S|Europe/Prague
+Prague|50.08|14.44
+Brno|49.20|16.61
+Ostrava|49.82|18.26
+Plzen|49.75|13.38
+@Denmark|MWL|S|Europe/Copenhagen
+Copenhagen|55.68|12.57
+Aarhus|56.16|10.20
+Odense|55.40|10.39
+Aalborg|57.05|9.92
+@Djibouti|MWL|S|Africa/Djibouti
+Djibouti|11.59|43.15
+Ali Sabieh|11.16|42.71
+@Dominica|ISNA|S|America/Dominica
+Roseau|15.30|-61.39
+@Dominican Republic|ISNA|S|America/Santo_Domingo
+Santo Domingo|18.49|-69.93
+Santiago de los Caballeros|19.45|-70.69
+Puerto Plata|19.79|-70.69
+@Ecuador|MWL|S|America/Guayaquil
+Quito|-0.18|-78.47
+Guayaquil|-2.17|-79.92
+Cuenca|-2.90|-79.00
+@Egypt|EGYPT|S|Africa/Cairo
+Cairo|30.04|31.24
+Alexandria|31.20|29.92
+Giza|30.01|31.21
+Shubra El Kheima|30.13|31.25
+Port Said|31.27|32.30
+Suez|29.97|32.55
+Luxor|25.70|32.64
+Mansoura|31.04|31.38
+Tanta|30.79|31.00
+Asyut|27.18|31.18
+Ismailia|30.60|32.27
+Faiyum|29.31|30.84
+Zagazig|30.59|31.50
+Aswan|24.09|32.90
+Damietta|31.42|31.81
+Hurghada|27.26|33.81
+Sharm El Sheikh|27.91|34.33
+Minya|28.11|30.75
+Beni Suef|29.07|31.10
+Sohag|26.56|31.69
+Qena|26.16|32.72
+Damanhur|31.03|30.47
+Marsa Matruh|31.35|27.24
+Banha|30.46|31.18
+Kafr El Sheikh|31.11|30.94
+@El Salvador|ISNA|S|America/El_Salvador
+San Salvador|13.69|-89.19
+Santa Ana|13.99|-89.56
+San Miguel|13.48|-88.18
+@Equatorial Guinea|MWL|S|Africa/Malabo
+Malabo|3.75|8.78
+Bata|1.86|9.77
+@Eritrea|MWL|S|Africa/Asmara
+Asmara|15.34|38.93
+Massawa|15.61|39.47
+Keren|15.78|38.45
+@Estonia|MWL|S|Europe/Tallinn
+Tallinn|59.44|24.75
+Tartu|58.38|26.72
+@Eswatini|MWL|S|Africa/Mbabane
+Mbabane|-26.32|31.14
+Manzini|-26.50|31.38
+@Ethiopia|MWL|S|Africa/Addis_Ababa
+Addis Ababa|9.03|38.74
+Dire Dawa|9.59|41.86
+Mekelle|13.50|39.47
+Gondar|12.60|37.47
+Bahir Dar|11.60|37.38
+Harar|9.31|42.12
+Jimma|7.67|36.83
+Hawassa|7.06|38.48
+Adama|8.54|39.27
+@Fiji|MWL|S|Pacific/Fiji
+Suva|-18.14|178.44
+Nadi|-17.80|177.42
+Lautoka|-17.62|177.45
+@Finland|MWL|S|Europe/Helsinki
+Helsinki|60.17|24.94
+Espoo|60.21|24.66
+Tampere|61.50|23.76
+Turku|60.45|22.27
+Oulu|65.01|25.47
+@France|MWL|S|Europe/Paris
+Paris|48.86|2.35
+Marseille|43.30|5.37
+Lyon|45.76|4.84
+Toulouse|43.60|1.44
+Nice|43.70|7.27
+Nantes|47.22|-1.55
+Strasbourg|48.57|7.75
+Montpellier|43.61|3.88
+Bordeaux|44.84|-0.58
+Lille|50.63|3.06
+Rennes|48.11|-1.68
+@Gabon|MWL|S|Africa/Libreville
+Libreville|0.42|9.47
+Port-Gentil|-0.72|8.78
+@Gambia|MWL|S|Africa/Banjul
+Banjul|13.45|-16.58
+Serekunda|13.44|-16.68
+@Georgia|MWL|S|Asia/Tbilisi
+Tbilisi|41.72|44.79
+Batumi|41.65|41.64
+Kutaisi|42.27|42.70
+@Germany|MWL|S|Europe/Berlin
+Berlin|52.52|13.40
+Hamburg|53.55|9.99
+Munich|48.14|11.58
+Cologne|50.94|6.96
+Frankfurt|50.11|8.68
+Stuttgart|48.78|9.18
+Dusseldorf|51.23|6.78
+Dortmund|51.51|7.47
+Essen|51.46|7.01
+Leipzig|51.34|12.37
+Bremen|53.08|8.80
+Dresden|51.05|13.74
+Hannover|52.37|9.74
+Nuremberg|49.45|11.08
+Duisburg|51.43|6.77
+Bonn|50.74|7.10
+@Ghana|MWL|S|Africa/Accra
+Accra|5.60|-0.19
+Kumasi|6.69|-1.62
+Tamale|9.40|-0.84
+Takoradi|4.90|-1.76
+Cape Coast|5.11|-1.25
+@Greece|MWL|S|Europe/Athens
+Athens|37.98|23.73
+Thessaloniki|40.64|22.94
+Patras|38.25|21.73
+Heraklion|35.34|25.13
+Komotini|41.12|25.41
+@Grenada|ISNA|S|America/Grenada
+Saint George's|12.06|-61.75
+@Guatemala|ISNA|S|America/Guatemala
+Guatemala City|14.63|-90.51
+Quetzaltenango|14.83|-91.52
+@Guinea|MWL|S|Africa/Conakry
+Conakry|9.64|-13.58
+Kankan|10.38|-9.31
+Labe|11.32|-12.29
+Nzerekore|7.76|-8.82
+@Guinea-Bissau|MWL|S|Africa/Bissau
+Bissau|11.86|-15.60
+@Guyana|MWL|S|America/Guyana
+Georgetown|6.80|-58.16
+@Haiti|ISNA|S|America/Port-au-Prince
+Port-au-Prince|18.54|-72.34
+Cap-Haitien|19.76|-72.20
+@Honduras|ISNA|S|America/Tegucigalpa
+Tegucigalpa|14.07|-87.19
+San Pedro Sula|15.50|-88.03
+@Hungary|MWL|S|Europe/Budapest
+Budapest|47.50|19.04
+Debrecen|47.53|21.63
+Szeged|46.25|20.15
+Pecs|46.07|18.23
+@Iceland|MWL|S|Atlantic/Reykjavik
+Reykjavik|64.15|-21.94
+Akureyri|65.68|-18.09
+@India|KARACHI|H|Asia/Kolkata
+New Delhi|28.61|77.21
+Mumbai~Bombay|19.08|72.88
+Delhi|28.70|77.10
+Kolkata~Calcutta|22.57|88.36
+Chennai~Madras|13.08|80.27
+Bengaluru~Bangalore|12.97|77.59
+Hyderabad|17.39|78.49
+Ahmedabad|23.02|72.57
+Pune|18.52|73.86
+Surat|21.17|72.83
+Jaipur|26.91|75.79
+Lucknow|26.85|80.95
+Kanpur|26.45|80.35
+Nagpur|21.15|79.09
+Patna|25.59|85.14
+Bhopal|23.26|77.41
+Srinagar|34.08|74.80
+Aligarh|27.88|78.08
+Varanasi|25.32|82.97
+Indore|22.72|75.86
+Kozhikode~Calicut|11.26|75.78
+Malappuram|11.07|76.07
+Thiruvananthapuram|8.52|76.94
+Kochi|9.93|76.27
+Mysuru~Mysore|12.30|76.64
+Mangaluru~Mangalore|12.91|74.86
+Visakhapatnam|17.69|83.22
+Coimbatore|11.02|76.96
+Madurai|9.93|78.12
+Meerut|28.98|77.71
+Agra|27.18|78.02
+Prayagraj~Allahabad|25.43|81.85
+Ranchi|23.34|85.31
+Guwahati|26.14|91.74
+Jammu|32.73|74.86
+Ludhiana|30.90|75.86
+Amritsar|31.63|74.87
+Chandigarh|30.73|76.78
+Raipur|21.25|81.63
+Bhubaneswar|20.30|85.82
+Moradabad|28.84|78.78
+Bareilly|28.37|79.43
+Aurangabad|19.88|75.34
+Nashik|19.99|73.79
+Vadodara|22.31|73.18
+Rajkot|22.30|70.80
+Dehradun|30.32|78.03
+Jodhpur|26.30|73.02
+Udaipur|24.58|73.68
+Gwalior|26.22|78.18
+Jabalpur|23.18|79.95
+Saharanpur|29.97|77.55
+Gorakhpur|26.76|83.37
+Tiruchirappalli|10.79|78.69
+Vijayawada|16.51|80.65
+Thrissur|10.53|76.21
+Kannur|11.87|75.37
+@Indonesia|SINGAPORE|S|Asia/Jakarta
+Jakarta|-6.21|106.85
+Surabaya|-7.25|112.75
+Bandung|-6.92|107.61
+Medan|3.59|98.67
+Semarang|-6.97|110.42
+Makassar|-5.15|119.43|Asia/Makassar
+Palembang|-2.99|104.76
+Tangerang|-6.18|106.63
+Depok|-6.40|106.82
+Bekasi|-6.24|106.99
+Bogor|-6.60|106.80
+Batam|1.13|104.05
+Pekanbaru|0.51|101.45
+Bandar Lampung|-5.43|105.26
+Padang|-0.95|100.35
+Malang|-7.97|112.63
+Yogyakarta|-7.80|110.36
+Banda Aceh|5.55|95.32
+Denpasar|-8.65|115.22|Asia/Makassar
+Balikpapan|-1.24|116.83|Asia/Makassar
+Banjarmasin|-3.32|114.59|Asia/Makassar
+Pontianak|-0.03|109.33|Asia/Pontianak
+Manado|1.47|124.84|Asia/Makassar
+Jayapura|-2.53|140.72|Asia/Jayapura
+Mataram|-8.58|116.12|Asia/Makassar
+Surakarta~Solo|-7.57|110.83
+@Iran|TEHRAN|S|Asia/Tehran
+Tehran|35.69|51.39
+Mashhad|36.30|59.60
+Isfahan|32.65|51.67
+Karaj|35.84|50.94
+Shiraz|29.59|52.58
+Tabriz|38.08|46.29
+Qom|34.64|50.88
+Ahvaz|31.32|48.67
+Kermanshah|34.31|47.07
+Urmia|37.55|45.07
+Rasht|37.28|49.58
+Zahedan|29.50|60.86
+Kerman|30.28|57.08
+Yazd|31.90|54.37
+Bandar Abbas|27.18|56.27
+Hamadan|34.80|48.51
+Arak|34.09|49.69
+Sanandaj|35.31|47.00
+@Iraq|EGYPT|S|Asia/Baghdad
+Baghdad|33.31|44.37
+Basra|30.51|47.78
+Mosul|36.34|43.13
+Erbil|36.19|44.01
+Najaf|32.00|44.34
+Karbala|32.62|44.02
+Sulaymaniyah|35.56|45.43
+Kirkuk|35.47|44.39
+Nasiriyah|31.05|46.26
+Fallujah|33.35|43.78
+Samarra|34.20|43.87
+Duhok|36.87|42.99
+Ramadi|33.42|43.30
+Kut|32.51|45.82
+Hillah|32.48|44.42
+@Ireland|MWL|S|Europe/Dublin
+Dublin|53.35|-6.26
+Cork|51.90|-8.47
+Limerick|52.66|-8.63
+Galway|53.27|-9.05
+@Israel|MWL|S|Asia/Jerusalem
+Tel Aviv|32.09|34.78
+Haifa|32.79|34.99
+Nazareth|32.70|35.30
+Beersheba|31.25|34.79
+Umm al-Fahm|32.52|35.15
+Rahat|31.39|34.75
+@Italy|MWL|S|Europe/Rome
+Rome|41.90|12.50
+Milan|45.46|9.19
+Naples|40.85|14.27
+Turin|45.07|7.69
+Palermo|38.12|13.36
+Genoa|44.41|8.93
+Bologna|44.49|11.34
+Florence|43.77|11.26
+Venice|45.44|12.32
+Bari|41.12|16.87
+Catania|37.50|15.09
+Verona|45.44|10.99
+@Jamaica|ISNA|S|America/Jamaica
+Kingston|17.97|-76.79
+Montego Bay|18.47|-77.92
+@Japan|MWL|S|Asia/Tokyo
+Tokyo|35.68|139.69
+Osaka|34.69|135.50
+Yokohama|35.44|139.64
+Nagoya|35.18|136.91
+Sapporo|43.06|141.35
+Fukuoka|33.59|130.40
+Kobe|34.69|135.20
+Kyoto|35.01|135.77
+Hiroshima|34.39|132.46
+Sendai|38.27|140.87
+@Jordan|MWL|S|Asia/Amman
+Amman|31.95|35.93
+Zarqa|32.07|36.09
+Irbid|32.56|35.85
+Aqaba|29.53|35.01
+Salt|32.04|35.73
+Madaba|31.72|35.79
+Karak|31.18|35.70
+Mafraq|32.34|36.21
+@Kazakhstan|MWL|H|Asia/Almaty
+Astana|51.17|71.43
+Almaty|43.24|76.89
+Shymkent|42.32|69.59
+Karaganda|49.81|73.09
+Aktobe|50.28|57.21|Asia/Aqtobe
+Taraz|42.90|71.37
+Pavlodar|52.29|76.97
+Oskemen|49.95|82.61
+Semey|50.43|80.26
+Aktau|43.65|51.15|Asia/Aqtau
+Atyrau|47.12|51.88|Asia/Atyrau
+@Kenya|MWL|S|Africa/Nairobi
+Nairobi|-1.29|36.82
+Mombasa|-4.04|39.67
+Kisumu|-0.09|34.77
+Nakuru|-0.30|36.07
+Eldoret|0.51|35.27
+Malindi|-3.22|40.12
+Garissa|-0.45|39.65
+Lamu|-2.27|40.90
+@Kiribati|MWL|S|Pacific/Tarawa
+South Tarawa|1.33|172.98
+@Kosovo|MWL|S|Europe/Belgrade
+Pristina|42.66|21.17
+Prizren|42.21|20.74
+Peja|42.66|20.29
+Gjakova|42.38|20.43
+Mitrovica|42.89|20.87
+@Kuwait|KUWAIT|S|Asia/Kuwait
+Kuwait City|29.38|47.98
+Hawalli|29.33|48.03
+Salmiya|29.33|48.08
+Al Ahmadi|29.08|48.08
+Jahra|29.34|47.66
+Farwaniya|29.28|47.96
+@Kyrgyzstan|MWL|H|Asia/Bishkek
+Bishkek|42.87|74.59
+Osh|40.53|72.80
+Jalal-Abad|40.93|73.00
+Karakol|42.49|78.39
+@Laos|MWL|S|Asia/Vientiane
+Vientiane|17.98|102.63
+Luang Prabang|19.89|102.13
+Pakse|15.12|105.80
+@Latvia|MWL|S|Europe/Riga
+Riga|56.95|24.11
+Daugavpils|55.87|26.54
+@Lebanon|EGYPT|S|Asia/Beirut
+Beirut|33.89|35.50
+Tripoli|34.44|35.83
+Sidon|33.56|35.37
+Tyre|33.27|35.20
+Baalbek|34.01|36.21
+Zahle|33.85|35.90
+@Lesotho|MWL|S|Africa/Maseru
+Maseru|-29.31|27.48
+@Liberia|MWL|S|Africa/Monrovia
+Monrovia|6.30|-10.80
+@Libya|EGYPT|S|Africa/Tripoli
+Tripoli|32.89|13.19
+Benghazi|32.12|20.09
+Misrata|32.38|15.09
+Tobruk|32.08|23.98
+Sabha|27.04|14.43
+Bayda|32.77|21.75
+Zawiya|32.76|12.73
+Sirte|31.21|16.59
+@Liechtenstein|MWL|S|Europe/Vaduz
+Vaduz|47.14|9.52
+@Lithuania|MWL|S|Europe/Vilnius
+Vilnius|54.69|25.28
+Kaunas|54.90|23.89
+@Luxembourg|MWL|S|Europe/Luxembourg
+Luxembourg|49.61|6.13
+@Madagascar|MWL|S|Indian/Antananarivo
+Antananarivo|-18.88|47.51
+Toamasina|-18.15|49.41
+Mahajanga|-15.72|46.32
+@Malawi|MWL|S|Africa/Blantyre
+Lilongwe|-13.96|33.77
+Blantyre|-15.79|35.01
+@Malaysia|KARACHI|S|Asia/Kuala_Lumpur
+Kuala Lumpur|3.14|101.69
+Putrajaya|2.93|101.70
+George Town|5.41|100.33
+Johor Bahru|1.49|103.74
+Ipoh|4.60|101.08
+Shah Alam|3.07|101.52
+Kota Kinabalu|5.98|116.07|Asia/Kuching
+Kuching|1.55|110.34|Asia/Kuching
+Malacca|2.19|102.25
+Kota Bharu|6.13|102.24
+Kuantan|3.81|103.33
+Alor Setar|6.12|100.37
+Kuala Terengganu|5.33|103.14
+Seremban|2.73|101.94
+Klang|3.04|101.45
+Subang Jaya|3.15|101.58
+Miri|4.40|113.99|Asia/Kuching
+@Maldives|KARACHI|S|Indian/Maldives
+Male|4.18|73.51
+Addu City|-0.63|73.16
+Hulhumale|4.21|73.54
+@Mali|MWL|S|Africa/Bamako
+Bamako|12.64|-8.00
+Sikasso|11.32|-5.67
+Mopti|14.49|-4.20
+Timbuktu|16.77|-3.01
+Gao|16.27|-0.04
+Kayes|14.45|-11.44
+@Malta|MWL|S|Europe/Malta
+Valletta|35.90|14.51
+Birkirkara|35.90|14.46
+@Marshall Islands|ISNA|S|Pacific/Majuro
+Majuro|7.09|171.38
+@Mauritania|MWL|S|Africa/Nouakchott
+Nouakchott|18.08|-15.98
+Nouadhibou|20.93|-17.03
+Kiffa|16.62|-11.40
+Rosso|16.51|-15.81
+@Mauritius|MWL|S|Indian/Mauritius
+Port Louis|-20.16|57.50
+Curepipe|-20.32|57.52
+@Mexico|ISNA|S|America/Mexico_City
+Mexico City|19.43|-99.13
+Guadalajara|20.67|-103.35
+Monterrey|25.69|-100.32
+Puebla|19.04|-98.21
+Tijuana|32.51|-117.04|America/Tijuana
+Cancun|21.16|-86.85|America/Cancun
+Merida|20.97|-89.62|America/Merida
+Leon|21.12|-101.68
+Torreon|25.54|-103.41
+@Micronesia|ISNA|S|Pacific/Pohnpei
+Palikir|6.92|158.16
+Weno|7.45|151.85|Pacific/Chuuk
+@Moldova|MWL|S|Europe/Chisinau
+Chisinau|47.01|28.86
+Balti|47.76|27.93
+@Monaco|MWL|S|Europe/Monaco
+Monaco|43.74|7.42
+@Mongolia|MWL|S|Asia/Ulaanbaatar
+Ulaanbaatar|47.89|106.91
+Erdenet|49.03|104.08
+Olgii|48.97|89.96|Asia/Hovd
+@Montenegro|MWL|S|Europe/Podgorica
+Podgorica|42.44|19.26
+Niksic|42.77|18.94
+Bar|42.09|19.10
+Ulcinj|41.93|19.21
+Rozaje|42.84|20.17
+@Morocco|MWL|S|Africa/Casablanca
+Rabat|34.02|-6.84
+Casablanca|33.57|-7.59
+Fes|34.03|-5.00
+Marrakesh|31.63|-7.99
+Tangier|35.77|-5.80
+Agadir|30.43|-9.60
+Meknes|33.89|-5.55
+Oujda|34.68|-1.91
+Kenitra|34.26|-6.58
+Tetouan|35.57|-5.37
+Safi|32.30|-9.24
+Mohammedia|33.69|-7.38
+El Jadida|33.23|-8.50
+Nador|35.17|-2.93
+@Mozambique|MWL|S|Africa/Maputo
+Maputo|-25.97|32.57
+Beira|-19.84|34.84
+Nampula|-15.12|39.27
+Pemba|-12.97|40.52
+@Myanmar|KARACHI|S|Asia/Yangon
+Naypyidaw|19.76|96.08
+Yangon~Rangoon|16.84|96.17
+Mandalay|21.97|96.08
+Sittwe|20.15|92.90

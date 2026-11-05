@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ur" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>prayertim.blog – اپلوڈ اور AdSense کی ہدایات</title>
+<style>
+body{font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq","Noto Naskh Arabic","Segoe UI",Tahoma,serif;line-height:2.2;max-width:860px;margin:24px auto;padding:0 16px;color:#17231e;background:#f7faf8;font-size:18px}
+h1{color:#0d5c46}h2{color:#0d5c46;border-bottom:2px solid #c9a227;padding-bottom:4px;margin-top:1.6em}
+code{direction:ltr;unicode-bidi:embed;background:#e8f1ec;padding:1px 6px;border-radius:4px;font-family:Consolas,monospace;font-size:.9em}
+.box{background:#fff3cd;border-right:5px solid #c9a227;padding:8px 14px;border-radius:6px}
+li{margin-bottom:.4em}
+</style></head><body>
+<h1>prayertim.blog – مکمل سائٹ: اپلوڈ اور AdSense کی ہدایات</h1>
+
+<h2>۱. اس فولڈر میں کیا ہے</h2>
+<ul>
+<li><b>prayertim-site</b> : تیار سائٹ۔ صرف یہی فولڈر انٹرنیٹ پر اپلوڈ کرنا ہے۔</li>
+<li><b>tools/add-adsense.py</b> : AdSense منظور ہونے کے بعد آپ کا کوڈ تمام صفحات میں ڈالنے کا چھوٹا پروگرام۔</li>
+<li><b>build-tools</b> : اختیاری۔ سائٹ دوبارہ بنانے کا سورس (ہر مہینے تازہ کرنے کے لیے)۔</li>
+</ul>
+<p>سائٹ میں <b>1,404 صفحات</b> ہیں: ہوم، 197 ممالک (A سے Z)، 1,219 شہر (ہر شہر کا الگ صفحہ اور ماہانہ ٹائم ٹیبل)، 10 اصل مضامین، About، Contact، Privacy Policy، Terms، Disclaimer، Methodology اور 404 صفحہ۔</p>
+
+<h2>۲. جو مسائل ٹھیک کیے گئے</h2>
+<ul>
+<li>ہر چیز کا الگ اصل URL (مثلاً <code>/prayer-times/pakistan/karachi/</code>) اور درست sitemap.xml۔</li>
+<li>تمام ممالک کے اصل شہر۔ جعلی "City 1/City 2" ختم۔</li>
+<li>نماز کے اوقات اب خود حساب ہوتے ہیں اور روز بدلتے ہیں۔ ہاتھ سے لکھے ہوئے وقت ختم۔</li>
+<li>12/24 گھنٹے والا بٹن، Hanafi/Standard عصر اور حساب کا طریقہ اب کام کرتے ہیں اور براؤزر میں محفوظ رہتے ہیں۔</li>
+<li>Contact صفحے پر اصل ای میل (<code>sajidsgd567@gmail.com</code>)۔ جعلی "پیغام بھیج دیا گیا" ختم۔</li>
+<li>مکمل Privacy Policy (Google اشتہارات، opt-out لنک، GDPR/CCPA)۔ ٹیمپلیٹ کا <code>www.website.com</code> ختم۔</li>
+<li>فوٹر سے کسی اور کمپنی کی برانڈنگ ہٹا دی گئی۔</li>
+<li>SEO: ہر صفحے کا الگ title اور description، canonical، Open Graph، favicon، social تصویر، breadcrumb اور FAQ schema۔ غلط SearchAction ہٹا دیا۔</li>
+<li>خالی اشتہاری ڈبے اور placeholder AdSense کوڈ ہٹا دیے۔</li>
+<li>کوئی باہر کی API یا فونٹ/آئیکن سائٹ نہیں لگتی، اس لیے سائٹ تیز ہے اور پرائیویسی بہتر ہے۔</li>
+</ul>
+
+<h2>۳. Cloudflare Pages پر لائیو کرنا</h2>
+<ol>
+<li>Cloudflare میں لاگ اِن کریں ← <b>Workers &amp; Pages</b> ← <b>Create</b> ← <b>Pages</b> ← <b>Upload assets</b> (Direct Upload)۔</li>
+<li>پراجیکٹ کا نام لکھیں، پھر <b>prayertim-site</b> فولڈر (یا اس کی ZIP) ڈال دیں اور <b>Deploy</b> دبائیں۔</li>
+<li>پراجیکٹ کے <b>Custom domains</b> میں <code>prayertim.blog</code> شامل کریں اور Cloudflare کی ہدایات کے مطابق DNS درست کریں۔</li>
+<li>لائیو ہونے کے بعد دیکھ لیں: <code>https://prayertim.blog/sitemap.xml</code> اور <code>https://prayertim.blog/ads.txt</code> کھلتے ہیں۔</li>
+</ol>
+
+<h2>۴. Google Search Console (پہلے یہ کریں)</h2>
+<ol>
+<li><b>search.google.com/search-console</b> میں <code>prayertim.blog</code> شامل کریں اور ملکیت ثابت کریں (DNS طریقہ آسان ہے)۔</li>
+<li><b>Sitemaps</b> میں <code>sitemap.xml</code> جمع کروائیں۔</li>
+<li>چند ہفتے رکیں تاکہ Google صفحات انڈیکس کر لے۔</li>
+</ol>
+
+<h2>۵. AdSense کے لیے اپلائی</h2>
+<ol>
+<li>AdSense میں سائٹ <code>prayertim.blog</code> شامل کریں۔ Google آپ کو ایک کوڈ اور <b>Publisher ID</b> (جیسے <code>ca-pub-1234567890123456</code>) دے گا۔</li>
+<li>کمپیوٹر پر Python چلا کر یہ ایک لائن چلائیں (فولڈر کے برابر میں): <br><code>python3 tools/add-adsense.py ca-pub-آپکی-اصل-ID prayertim-site</code><br>یہ تمام صفحات میں کوڈ ڈال دے گا اور <code>ads.txt</code> بھی بھر دے گا۔ اس کے بعد <b>prayertim-site</b> دوبارہ اپلوڈ کریں۔ (یا مجھے اپنی ID بھیج دیں، میں سائٹ دوبارہ بنا دوں گا۔)</li>
+<li>AdSense میں <b>Privacy &amp; messaging</b> کے اندر یورپ/برطانیہ کے لیے Google کا مفت consent پیغام آن کریں۔ یہ ان ممالک کے وزیٹرز کے لیے ضروری ہے۔</li>
+<li>جب AdSense "تیار" کہے تو جائزے کے لیے بھیجیں۔ منظوری کے بعد Auto ads آن کر لیں۔ ابھی صفحات میں خود اشتہاری ڈبے رکھنے کی ضرورت نہیں۔</li>
+</ol>
+<div class="box"><b>اہم:</b> منظوری کی ضمانت کوئی نہیں دے سکتا۔ Google ہر سائٹ کو خود دیکھتا ہے۔ اپنی ہی سائٹ کے اشتہار پر کلک نہ کریں، اور نیچے والی باتوں کا خیال رکھیں۔</div>
+
+<h2>۶. منظوری کے امکانات بڑھانے کے لیے</h2>
+<ul>
+<li>اس وقت 10 اصل مضامین ہیں۔ ہر ہفتے ایک نیا اچھا مضمون (اپنے الفاظ میں، درست حوالوں کے ساتھ) شامل کرتے رہیں۔ Google کو مفید اور اصل مواد چاہیے۔</li>
+<li>شہروں کے صفحات ایک ہی ڈھانچے پر بنے ہیں (ہر شہر کا اپنا ڈیٹا، لیکن متن کا انداز ایک سا)۔ ہزاروں ملتے جلتے صفحات "کم قیمت مواد" سمجھے جا سکتے ہیں۔ اگر پہلی کوشش رد ہو تو مجھے بتائیں، ہم صرف اہم ممالک رکھ کر باقی بعد میں شامل کر سکتے ہیں اور ان صفحات پر مزید اصل متن ڈال سکتے ہیں۔</li>
+<li>سائٹ کئی ہفتے لائیو رہے اور Search Console میں صفحات انڈیکس ہو جائیں، پھر اپلائی کریں۔</li>
+</ul>
+
+<h2>۷. ہر مہینے کیا کریں</h2>
+<p>ہر صفحے میں اس مہینے (نومبر 2026) کا ٹائم ٹیبل پہلے سے لکھا ہوا ہے تاکہ جاوا اسکرپٹ بند ہو تب بھی نظر آئے۔ وزیٹر کے براؤزر میں وقت ہمیشہ خود تازہ ہو جاتا ہے، اس لیے عام وزیٹر کو کوئی فرق نہیں پڑتا۔ البتہ مہینے کی 1 تاریخ کو سائٹ دوبارہ بنا کر اپلوڈ کر دینا بہتر ہے: <code>cd build-tools</code> پھر <code>node src/build.js ../prayertim-site</code> (Node.js چاہیے)، یا مجھ سے کہہ دیں۔</p>
+
+<h2>۸. Contact فارم</h2>
+<p>فارم دبانے پر وزیٹر کی ای میل ایپ کھلتی ہے جس میں پیغام تیار ہوتا ہے، اور پیغام آپ کی ای میل پر آتا ہے۔ اگر سیدھا فارم چاہیے تو Formspree یا Web3Forms کا مفت اکاؤنٹ بنا کر لنک <code>prayertim-site/config.js</code> میں <code>formEndpoint</code> کے سامنے لکھ دیں۔</p>
+
+<h2>۹. جانچ اور حدود (سچ)</h2>
+<ul>
+<li>اوقات کا حساب ایک الگ فارمولے سے (سورج نکلنے اور ڈوبنے میں فرق 3 منٹ کے اندر) اور آن لائن ذرائع سے مقابلہ کر کے دیکھا گیا۔ مکہ اور کراچی کے آج کے اوقات 1 منٹ کے اندر ملے (کچھ ویب سائٹس ظہر میں 1 منٹ احتیاطاً بڑھاتی ہیں)۔ ہر شہر کا الگ الگ مقابلہ ممکن نہیں تھا۔</li>
+<li>شہروں کے نقاط (latitude/longitude) تقریباً شہر کے مرکز کے ہیں۔ چند کلومیٹر کے فرق سے وقت میں چند سیکنڈ ہی بدلتے ہیں۔ کوئی شہر غلط لگے تو مجھے بتائیں۔</li>
+<li>مسجد کا اپنا ٹائم ٹیبل (جماعت کا وقت) ہمیشہ مقدم ہے۔ یہ بات Disclaimer میں بھی لکھی ہے۔</li>
+<li>سائٹ کا متن انگریزی میں ہے (Google اور AdSense کے لیے ایک زبان صاف رہتی ہے)۔ عربی نام نماز کے خانوں پر لکھے ہیں۔ اردو یا عربی کے الگ صفحات بعد میں بن سکتے ہیں۔</li>
+<li>مضامین میں شرعی مسائل عمومی انداز میں ہیں اور جہاں علماء میں اختلاف ہے وہاں اختلاف لکھا ہے۔ اشاعت سے پہلے کسی عالم سے ایک نظر ڈلوا لینا بہتر ہے۔</li>
+</ul>
+</body></html>
