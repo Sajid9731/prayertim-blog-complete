@@ -1,4 +1,4 @@
-/* prayertim.blog – front-end behaviour (no third-party dependencies) */
+/* prayertim.com – front-end behaviour (no third-party dependencies) */
 (function () {
   'use strict';
   var C = window.PT_CONFIG || {};
@@ -194,7 +194,7 @@
           });
       } else {
         var body = 'Name: ' + d.name + '\nEmail: ' + d.email + '\n\n' + d.message;
-        location.href = 'mailto:' + C.contactEmail + '?subject=' + encodeURIComponent('[prayertim.blog] ' + d.subject) + '&body=' + encodeURIComponent(body);
+        location.href = 'mailto:' + C.contactEmail + '?subject=' + encodeURIComponent('[prayertim.com] ' + d.subject) + '&body=' + encodeURIComponent(body);
         msg.className = 'form-msg ok'; msg.hidden = false;
         msg.textContent = 'Your email app should open with the message ready to send. If nothing opens, please write to ' + C.contactEmail + ' directly.';
       }

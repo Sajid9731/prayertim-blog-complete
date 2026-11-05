@@ -9,11 +9,11 @@ function build(ctx, L, h) {
 
   /* ---------- About ---------- */
   out.push({
-    path: '/about/', crumb: 'About us', active: '/about/', title: 'About prayertim.blog – Who We Are and How We Work',
-    desc: 'prayertim.blog provides prayer times, monthly azan timetables and guides for Muslims in every country. Learn who we are, how times are calculated and how to reach us.',
-    ld: [{ '@context': 'https://schema.org', '@type': 'AboutPage', name: 'About prayertim.blog', url: SITE + '/about/' }],
-    body: `<div class="card article"><h1>About prayertim.blog</h1>
-<p class="lead">prayertim.blog helps Muslims everywhere find accurate prayer times quickly and understand how those times are worked out.</p>
+    path: '/about/', crumb: 'About us', active: '/about/', title: 'About prayertim.com – Who We Are and How We Work',
+    desc: 'prayertim.com provides prayer times, monthly azan timetables and guides for Muslims in every country. Learn who we are, how times are calculated and how to reach us.',
+    ld: [{ '@context': 'https://schema.org', '@type': 'AboutPage', name: 'About prayertim.com', url: SITE + '/about/' }],
+    body: `<div class="card article"><h1>About prayertim.com</h1>
+<p class="lead">prayertim.com helps Muslims everywhere find accurate prayer times quickly and understand how those times are worked out.</p>
 <h2>What we do</h2>
 <p>We publish daily prayer times (Fajr, Sunrise, Dhuhr, Asr, Maghrib and Isha), full monthly timetables with Hijri dates, and the Qibla direction for ${nCities.toLocaleString('en-US')} cities in ${countries.length} countries. Alongside the timetables we write short guides explaining the astronomy and the differences between calculation methods, so that you can choose the setting that matches your community.</p>
 <h2>How the times are produced</h2>
@@ -25,15 +25,15 @@ function build(ctx, L, h) {
 <h2>Corrections and feedback</h2>
 <p>If you notice a time that looks wrong, a missing city, or an error in one of our articles, please tell us through the <a href="/contact/">contact page</a> or at <a href="mailto:${EMAIL}">${EMAIL}</a>. Include the city, the date and the time your mosque or authority publishes, and we will look into it.</p>
 <h2>Advertising</h2>
-<p>prayertim.blog is free to use. We may show advertisements from Google AdSense to cover running costs. Ads never change the prayer times we calculate. Read more in our <a href="/privacy-policy/">privacy policy</a>.</p>
+<p>prayertim.com is free to use. We may show advertisements from Google AdSense to cover running costs. Ads never change the prayer times we calculate. Read more in our <a href="/privacy-policy/">privacy policy</a>.</p>
 </div>`
   });
 
   /* ---------- Contact ---------- */
   out.push({
-    path: '/contact/', crumb: 'Contact us', title: 'Contact prayertim.blog – Questions, Corrections & Feedback',
-    desc: 'Contact prayertim.blog to report a prayer time error, suggest a city, ask a question or send feedback. We read every message.',
-    ld: [{ '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact prayertim.blog', url: SITE + '/contact/' }],
+    path: '/contact/', crumb: 'Contact us', title: 'Contact prayertim.com – Questions, Corrections & Feedback',
+    desc: 'Contact prayertim.com to report a prayer time error, suggest a city, ask a question or send feedback. We read every message.',
+    ld: [{ '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact prayertim.com', url: SITE + '/contact/' }],
     body: `<div class="card article"><h1>Contact us</h1>
 <p class="lead">Questions, corrections, or a city you would like us to add? We read every message.</p>
 <p><strong>Email:</strong> <a href="mailto:${EMAIL}">${EMAIL}</a></p>
@@ -52,11 +52,11 @@ function build(ctx, L, h) {
 
   /* ---------- Privacy ---------- */
   out.push({
-    path: '/privacy-policy/', crumb: 'Privacy policy', title: 'Privacy Policy – prayertim.blog',
-    desc: 'How prayertim.blog handles your information: log data, browser storage, location, cookies, Google AdSense advertising and your choices.',
+    path: '/privacy-policy/', crumb: 'Privacy policy', title: 'Privacy Policy – prayertim.com',
+    desc: 'How prayertim.com handles your information: log data, browser storage, location, cookies, Google AdSense advertising and your choices.',
     body: `<div class="card article"><h1>Privacy Policy</h1>
 <p class="note">Last updated: ${BUILD_LONG}</p>
-<p>This policy explains what information is collected when you visit <strong>prayertim.blog</strong> (“we”, “us”), how it is used and what choices you have. By using the site you agree to this policy.</p>
+<p>This policy explains what information is collected when you visit <strong>prayertim.com</strong> (“we”, “us”), how it is used and what choices you have. By using the site you agree to this policy.</p>
 
 <h2>1. Information we collect</h2>
 <h3>Log data</h3>
@@ -106,23 +106,23 @@ function build(ctx, L, h) {
 
   /* ---------- Terms ---------- */
   out.push({
-    path: '/terms/', crumb: 'Terms of service', title: 'Terms of Service – prayertim.blog',
-    desc: 'The terms that apply when you use prayertim.blog: permitted use, accuracy of prayer times, intellectual property, links and limits of liability.',
+    path: '/terms/', crumb: 'Terms of service', title: 'Terms of Service – prayertim.com',
+    desc: 'The terms that apply when you use prayertim.com: permitted use, accuracy of prayer times, intellectual property, links and limits of liability.',
     body: `<div class="card article"><h1>Terms of Service</h1>
 <p class="note">Last updated: ${BUILD_LONG}</p>
-<p>Welcome to <strong>prayertim.blog</strong>. By accessing or using this website you agree to these terms. If you do not agree, please do not use the site.</p>
+<p>Welcome to <strong>prayertim.com</strong>. By accessing or using this website you agree to these terms. If you do not agree, please do not use the site.</p>
 <h2>1. Use of the site</h2>
-<p>You may view, print and share prayer timetables and articles for personal, non-commercial purposes, provided you do not remove attribution and you link back to prayertim.blog when you quote or share material. You agree not to misuse the site, attempt to disrupt it, or use automated tools to copy large parts of it, including the complete set of timetables, without our written permission.</p>
+<p>You may view, print and share prayer timetables and articles for personal, non-commercial purposes, provided you do not remove attribution and you link back to prayertim.com when you quote or share material. You agree not to misuse the site, attempt to disrupt it, or use automated tools to copy large parts of it, including the complete set of timetables, without our written permission.</p>
 <h2>2. Accuracy of prayer times</h2>
 <p>Prayer times are calculated from astronomical formulas and standard calculation methods. We work to keep them accurate, but we cannot guarantee that they match every mosque, authority or community, and small differences of a few minutes are normal. Please read our <a href="/disclaimer/">disclaimer</a>. For congregational prayers, follow the timetable of your local mosque or religious authority.</p>
 <h2>3. Intellectual property</h2>
-<p>The text, design, code and layout of this site belong to prayertim.blog unless stated otherwise. Prayer times themselves are facts of astronomy, but our presentation and written content are protected. Third-party names and trademarks belong to their owners.</p>
+<p>The text, design, code and layout of this site belong to prayertim.com unless stated otherwise. Prayer times themselves are facts of astronomy, but our presentation and written content are protected. Third-party names and trademarks belong to their owners.</p>
 <h2>4. Advertising and third-party links</h2>
 <p>The site may show advertisements and may link to external websites. We do not control or endorse third-party content, products or services, and we are not responsible for them.</p>
 <h2>5. Availability</h2>
 <p>We aim to keep the site available, but we do not promise uninterrupted access and we may change, suspend or remove content or features at any time.</p>
 <h2>6. Limitation of liability</h2>
-<p>The site and its content are provided “as is” and “as available” without warranties of any kind. To the fullest extent permitted by law, prayertim.blog is not liable for any loss or damage arising from your use of, or inability to use, the site or from reliance on its content.</p>
+<p>The site and its content are provided “as is” and “as available” without warranties of any kind. To the fullest extent permitted by law, prayertim.com is not liable for any loss or damage arising from your use of, or inability to use, the site or from reliance on its content.</p>
 <h2>7. Changes</h2>
 <p>We may update these terms. Continued use of the site after a change means you accept the updated terms.</p>
 <h2>8. Contact</h2>
@@ -137,7 +137,7 @@ function build(ctx, L, h) {
     body: `<div class="card article"><h1>Disclaimer</h1>
 <p class="note">Last updated: ${BUILD_LONG}</p>
 <h2>Calculated times</h2>
-<p>The prayer times on <strong>prayertim.blog</strong> are calculated automatically from standard astronomical formulas and well-known calculation methods used by Islamic institutions. Real conditions such as altitude, the local horizon, weather and local adjustments can make the observed times differ slightly. Mosques often publish their own adhan and iqamah times, sometimes with fixed safety margins, and these may differ from ours by a few minutes.</p>
+<p>The prayer times on <strong>prayertim.com</strong> are calculated automatically from standard astronomical formulas and well-known calculation methods used by Islamic institutions. Real conditions such as altitude, the local horizon, weather and local adjustments can make the observed times differ slightly. Mosques often publish their own adhan and iqamah times, sometimes with fixed safety margins, and these may differ from ours by a few minutes.</p>
 <h2>Please verify</h2>
 <p>We encourage you to confirm timings with your local mosque, Islamic centre or religious authority, especially for congregational prayers, Jumu'ah, fasting times in Ramadan and Eid.</p>
 <h2>Hijri dates and moon sighting</h2>
@@ -170,10 +170,10 @@ function build(ctx, L, h) {
   const hanafi = countries.filter(c => c.school).map(c => c.name).join(', ');
   out.push({
     path: '/methodology/', crumb: 'Methodology', active: '/methodology/', title: 'How We Calculate Prayer Times – Methodology',
-    desc: 'The astronomy and settings behind prayertim.blog timetables: Fajr and Isha angles by method, Asr schools, sunrise and sunset, high-latitude rules, time zones and Hijri dates.',
-    ld: [{ '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'How prayertim.blog calculates prayer times', url: SITE + '/methodology/', author: { '@type': 'Organization', name: 'prayertim.blog' } }],
+    desc: 'The astronomy and settings behind prayertim.com timetables: Fajr and Isha angles by method, Asr schools, sunrise and sunset, high-latitude rules, time zones and Hijri dates.',
+    ld: [{ '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'How prayertim.com calculates prayer times', url: SITE + '/methodology/', author: { '@type': 'Organization', name: 'prayertim.com' } }],
     body: `<div class="card article"><h1>How We Calculate Prayer Times</h1>
-<p class="lead">Every time on prayertim.blog is computed from the sun's position at the city's coordinates. This page lists exactly what is used so you can check it or match it with your own authority.</p>
+<p class="lead">Every time on prayertim.com is computed from the sun's position at the city's coordinates. This page lists exactly what is used so you can check it or match it with your own authority.</p>
 <h2>1. The sun's position</h2>
 <p>For each date we calculate the sun's declination (how far north or south of the equator it is) and the equation of time (the difference between solar noon and clock noon). Together with the city's latitude and longitude, these give the moment of solar noon and the time the sun reaches any chosen angle below or above the horizon.</p>
 <h2>2. The five prayers</h2>

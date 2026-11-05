@@ -1,5 +1,5 @@
 /*!
- * prayertim.blog – prayer time engine
+ * prayertim.com – prayer time engine
  * Standard astronomical algorithm (solar position, hour-angle equations) as widely
  * documented for Islamic prayer times (see praytimes.org). Works in Node and browsers.
  */

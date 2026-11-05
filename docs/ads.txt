@@ -1,4 +1,4 @@
-# ads.txt for prayertim.blog
+# ads.txt for prayertim.com
 # After Google AdSense approves the site, replace the line below with your own publisher ID
 # (it looks like pub-1234567890123456) and remove the leading "#".
 # google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

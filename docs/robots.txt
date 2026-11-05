@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://prayertim.blog/sitemap.xml
+Sitemap: https://prayertim.com/sitemap.xml

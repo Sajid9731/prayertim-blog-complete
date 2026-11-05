@@ -1,5 +1,5 @@
 'use strict';
-/* prayertim.blog static site generator.  Usage: node src/build.js [outputDir] */
+/* prayertim.com static site generator.  Usage: node src/build.js [outputDir] */
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const PT = require('./prayer.js');
 const { load, slugify } = require('./loaddata.js');
@@ -7,7 +7,7 @@ const ARTICLES = require('./articles.js');
 const pages = require('./pages.js');
 
 const OUT = path.resolve(process.argv[2] || path.join(__dirname, '../site'));
-const SITE = 'https://prayertim.blog';
+const SITE = 'https://prayertim.com';
 const EMAIL = 'sajidsgd567@gmail.com';
 const NOW = new Date();
 const BY = NOW.getUTCFullYear(), BM = NOW.getUTCMonth() + 1, BD = NOW.getUTCDate();
@@ -67,7 +67,7 @@ const sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sm);
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
 fs.writeFileSync(path.join(OUT, 'ads.txt'),
-  `# ads.txt for prayertim.blog\n# After Google AdSense approves the site, replace the line below with your own publisher ID\n# (it looks like pub-1234567890123456) and remove the leading "#".\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n`);
+  `# ads.txt for prayertim.com\n# After Google AdSense approves the site, replace the line below with your own publisher ID\n# (it looks like pub-1234567890123456) and remove the leading "#".\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n`);
 fs.writeFileSync(path.join(OUT, '_headers'),
   `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=(self)\n\n/assets/*\n  Cache-Control: public, max-age=86400\n\n/sitemap.xml\n  Cache-Control: public, max-age=3600\n`);
 

@@ -31,7 +31,7 @@ module.exports = [
 <h2>What changes between methods</h2>
 <p>Sunrise, solar noon and sunset are fixed by physics. The disagreement among institutions is mainly about the <strong>angles</strong> that define Fajr and Isha (15° to 19.5°) and about the <strong>Asr</strong> shadow rule. Those choices are explained in our guides on <a href="/blog/prayer-time-calculation-methods-compared/">calculation methods</a> and <a href="/blog/hanafi-vs-shafii-asr-time/">the two schools of Asr</a>.</p>
 <h2>See it in action</h2>
-<p>Every timetable on prayertim.blog uses these steps. You can read the exact settings on our <a href="/methodology/">methodology page</a> and look up your own city from the <a href="/prayer-times/">country list</a>.</p>`
+<p>Every timetable on prayertim.com uses these steps. You can read the exact settings on our <a href="/methodology/">methodology page</a> and look up your own city from the <a href="/prayer-times/">country list</a>.</p>`
 },
 {
   slug: 'prayer-time-calculation-methods-compared', date: D,
@@ -67,7 +67,7 @@ module.exports = [
 <li>If not, use the default for your country, which is the method most people near you already follow.</li>
 <li>If you are in the West, check what your community's mosque uses before comparing apps; North American mosques often follow ISNA, while many European ones follow the Muslim World League or the local mosque's calendar.</li>
 </ol>
-<p>On every prayertim.blog timetable you can open the Options box and switch method instantly, and our <a href="/methodology/">methodology page</a> lists the default for each country. For the high-latitude special case read <a href="/blog/prayer-times-at-high-latitudes/">prayer times at high latitudes</a>.</p>`
+<p>On every prayertim.com timetable you can open the Options box and switch method instantly, and our <a href="/methodology/">methodology page</a> lists the default for each country. For the high-latitude special case read <a href="/blog/prayer-times-at-high-latitudes/">prayer times at high latitudes</a>.</p>`
 },
 {
   slug: 'hanafi-vs-shafii-asr-time', date: D,
@@ -94,7 +94,7 @@ module.exports = [
 <li>If you are unsure, ask your imam, or use the earlier (Standard) time only if you accept that the Hanafi time is later; people who follow Hanafi rulings should wait for the later time.</li>
 <li>When praying with a congregation, follow the congregation's time.</li>
 </ul>
-<p>On prayertim.blog the default is Hanafi for countries where that school is dominant, and Standard elsewhere. You can switch in the Options box on any city page. For more background see <a href="/blog/how-prayer-times-are-calculated/">how prayer times are calculated</a>.</p>`
+<p>On prayertim.com the default is Hanafi for countries where that school is dominant, and Standard elsewhere. You can switch in the Options box on any city page. For more background see <a href="/blog/how-prayer-times-are-calculated/">how prayer times are calculated</a>.</p>`
 },
 {
   slug: 'prayer-times-at-high-latitudes', date: D,
@@ -114,7 +114,7 @@ module.exports = [
 <li><strong>Follow Makkah or a fixed clock schedule:</strong> In extreme latitudes, some councils allow following the prayer times of Makkah or of the nearest country where the usual signs appear, or dividing the 24 hours into five periods.</li>
 </ol>
 <p>Scholars and councils differ on which approach is best, and mosques in the same city sometimes follow different ones. Which to use is a religious decision that your mosque or a scholar can make for you.</p>
-<h2>What prayertim.blog does</h2>
+<h2>What prayertim.com does</h2>
 <p>When the Fajr or Isha angle cannot be reached, or the calculated time would be unusually far from sunrise or sunset, we use the night-fraction approach: one-seventh of the night above 48° latitude and half the night below that. The method is documented on our <a href="/methodology/">methodology page</a>. If your local mosque uses another approach, follow your mosque's timetable for congregational prayers.</p>
 <h2>Practical tips</h2>
 <ul>
@@ -133,7 +133,7 @@ module.exports = [
 <p>The shortest path between two places on the globe is a great circle. The Qibla bearing is the starting direction of the great circle that leads from you to the Kaaba (21.4225° N, 39.8262° E), measured clockwise from true north. From London it is about 119° (roughly south-east). From Karachi it is about 268° (almost due west). From New York it is about 58° (north-east), and from Sydney about 277° (west). These can surprise people, because on a flat map the line looks different, but the great circle is the correct shortest direction used by almost every scholar today.</p>
 <h2>Method 1: a compass</h2>
 <ol>
-<li>Look up the Qibla bearing for your city, which is on every city page on prayertim.blog under "Qibla direction".</li>
+<li>Look up the Qibla bearing for your city, which is on every city page on prayertim.com under "Qibla direction".</li>
 <li>Hold a magnetic compass flat, away from metal, magnets and electronics.</li>
 <li>Turn until the needle points to the magnetic north, then rotate to the bearing.</li>
 </ol>
@@ -234,7 +234,7 @@ module.exports = [
 <p>Because the lunar month drifts through the seasons, the length of the fast varies. In summer at mid-latitudes the fast can be around 16 to 18 hours, while in winter it can be 10 to 12 hours. Near the equator it stays around 12 to 13 hours year-round. In northern Europe in summer, the twilight may never end, so scholars use the rules discussed in <a href="/blog/prayer-times-at-high-latitudes/">our high-latitude guide</a>.</p>
 <h2>Tips for planning</h2>
 <ul>
-<li>Open your city's timetable on <a href="/prayer-times/">prayertim.blog</a> and print the month (the "Print timetable" button).</li>
+<li>Open your city's timetable on <a href="/prayer-times/">prayertim.com</a> and print the month (the "Print timetable" button).</li>
 <li>Check which calculation method your mosque uses, as a different Fajr angle can shift suhoor and Isha times.</li>
 <li>Confirm the start and end of Ramadan with your local announcement (see <a href="/blog/hijri-calendar-explained/">the Hijri calendar</a>).</li>
 </ul>
@@ -268,7 +268,7 @@ module.exports = [
 <li>For praying alone, use the method and school you follow, and be consistent.</li>
 <li>For fasting, if in doubt, stop eating a few minutes before Fajr and wait a minute or two after sunset.</li>
 </ol>
-<p>On prayertim.blog you can change the method and Asr school in the Options box, and our <a href="/methodology/">methodology page</a> shows what each default means.</p>`
+<p>On prayertim.com you can change the method and Asr school in the Options box, and our <a href="/methodology/">methodology page</a> shows what each default means.</p>`
 },
 {
   slug: 'praying-while-traveling-qasr-and-jam', date: D,
@@ -291,7 +291,7 @@ module.exports = [
 <ul>
 <li>Pray the obligatory prayers on land facing the Qibla if possible; see <a href="/blog/how-to-find-qibla-direction/">how to find the Qibla</a>.</li>
 <li>On a plane, train or bus, scholars allow praying seated if you cannot stand or turn, doing your best to face the Qibla at the start.</li>
-<li>Use the prayer times of the place where you are. On prayertim.blog, search for the city you are in; times change by a few minutes as you move east or west.</li>
+<li>Use the prayer times of the place where you are. On prayertim.com, search for the city you are in; times change by a few minutes as you move east or west.</li>
 </ul>
 <h2>Sunnah prayers while travelling</h2>
 <p>The regular sunnah prayers are generally not offered while travelling, except for the two rak'ahs before Fajr and Witr, which the Prophet (peace be upon him) kept up on his journeys.</p>

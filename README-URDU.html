@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ur" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>prayertim.blog – اپلوڈ اور AdSense کی ہدایات</title>
+<title>prayertim.com – اپلوڈ اور AdSense کی ہدایات</title>
 <style>
 body{font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq","Noto Naskh Arabic","Segoe UI",Tahoma,serif;line-height:2.2;max-width:860px;margin:24px auto;padding:0 16px;color:#17231e;background:#f7faf8;font-size:18px}
 h1{color:#0d5c46}h2{color:#0d5c46;border-bottom:2px solid #c9a227;padding-bottom:4px;margin-top:1.6em}
@@ -8,7 +8,7 @@ code{direction:ltr;unicode-bidi:embed;background:#e8f1ec;padding:1px 6px;border-
 .box{background:#fff3cd;border-right:5px solid #c9a227;padding:8px 14px;border-radius:6px}
 li{margin-bottom:.4em}
 </style></head><body>
-<h1>prayertim.blog – مکمل سائٹ: اپلوڈ اور AdSense کی ہدایات</h1>
+<h1>prayertim.com – مکمل سائٹ: اپلوڈ اور AdSense کی ہدایات</h1>
 
 <h2>۱. اس فولڈر میں کیا ہے</h2>
 <ul>
@@ -36,20 +36,20 @@ li{margin-bottom:.4em}
 <ol>
 <li>Cloudflare میں لاگ اِن کریں ← <b>Workers &amp; Pages</b> ← <b>Create</b> ← <b>Pages</b> ← <b>Upload assets</b> (Direct Upload)۔</li>
 <li>پراجیکٹ کا نام لکھیں، پھر <b>prayertim-site</b> فولڈر (یا اس کی ZIP) ڈال دیں اور <b>Deploy</b> دبائیں۔</li>
-<li>پراجیکٹ کے <b>Custom domains</b> میں <code>prayertim.blog</code> شامل کریں اور Cloudflare کی ہدایات کے مطابق DNS درست کریں۔</li>
-<li>لائیو ہونے کے بعد دیکھ لیں: <code>https://prayertim.blog/sitemap.xml</code> اور <code>https://prayertim.blog/ads.txt</code> کھلتے ہیں۔</li>
+<li>پراجیکٹ کے <b>Custom domains</b> میں <code>prayertim.com</code> شامل کریں اور Cloudflare کی ہدایات کے مطابق DNS درست کریں۔</li>
+<li>لائیو ہونے کے بعد دیکھ لیں: <code>https://prayertim.com/sitemap.xml</code> اور <code>https://prayertim.com/ads.txt</code> کھلتے ہیں۔</li>
 </ol>
 
 <h2>۴. Google Search Console (پہلے یہ کریں)</h2>
 <ol>
-<li><b>search.google.com/search-console</b> میں <code>prayertim.blog</code> شامل کریں اور ملکیت ثابت کریں (DNS طریقہ آسان ہے)۔</li>
+<li><b>search.google.com/search-console</b> میں <code>prayertim.com</code> شامل کریں اور ملکیت ثابت کریں (DNS طریقہ آسان ہے)۔</li>
 <li><b>Sitemaps</b> میں <code>sitemap.xml</code> جمع کروائیں۔</li>
 <li>چند ہفتے رکیں تاکہ Google صفحات انڈیکس کر لے۔</li>
 </ol>
 
 <h2>۵. AdSense کے لیے اپلائی</h2>
 <ol>
-<li>AdSense میں سائٹ <code>prayertim.blog</code> شامل کریں۔ Google آپ کو ایک کوڈ اور <b>Publisher ID</b> (جیسے <code>ca-pub-1234567890123456</code>) دے گا۔</li>
+<li>AdSense میں سائٹ <code>prayertim.com</code> شامل کریں۔ Google آپ کو ایک کوڈ اور <b>Publisher ID</b> (جیسے <code>ca-pub-1234567890123456</code>) دے گا۔</li>
 <li>کمپیوٹر پر Python چلا کر یہ ایک لائن چلائیں (فولڈر کے برابر میں): <br><code>python3 tools/add-adsense.py ca-pub-آپکی-اصل-ID prayertim-site</code><br>یہ تمام صفحات میں کوڈ ڈال دے گا اور <code>ads.txt</code> بھی بھر دے گا۔ اس کے بعد <b>prayertim-site</b> دوبارہ اپلوڈ کریں۔ (یا مجھے اپنی ID بھیج دیں، میں سائٹ دوبارہ بنا دوں گا۔)</li>
 <li>AdSense میں <b>Privacy &amp; messaging</b> کے اندر یورپ/برطانیہ کے لیے Google کا مفت consent پیغام آن کریں۔ یہ ان ممالک کے وزیٹرز کے لیے ضروری ہے۔</li>
 <li>جب AdSense "تیار" کہے تو جائزے کے لیے بھیجیں۔ منظوری کے بعد Auto ads آن کر لیں۔ ابھی صفحات میں خود اشتہاری ڈبے رکھنے کی ضرورت نہیں۔</li>

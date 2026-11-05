@@ -45,14 +45,14 @@ function make(ctx) {
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="${o.ogType || 'website'}">
-<meta property="og:site_name" content="prayertim.blog">
+<meta property="og:site_name" content="prayertim.com">
 <meta property="og:title" content="${esc(o.ogTitle || o.title)}">
 <meta property="og:description" content="${esc(o.desc)}">
 <meta property="og:url" content="${url}">
 <meta property="og:image" content="${og}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="prayertim.blog – prayer times for every country">
+<meta property="og:image:alt" content="prayertim.com – prayer times for every country">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(o.ogTitle || o.title)}">
@@ -70,7 +70,7 @@ ${ld}
     return `<body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
-<a class="logo" href="/" aria-label="prayertim.blog home">${LOGO}<b>prayertim<span>.blog</span></b></a>
+<a class="logo" href="/" aria-label="prayertim.com home">${LOGO}<b>prayertim<span>.blog</span></b></a>
 <div class="searchbar"><input id="q" type="search" placeholder="Search city or country…" autocomplete="off" aria-label="Search for a city or country" role="combobox" aria-expanded="false" aria-controls="sres"><ul class="sres" id="sres" hidden></ul></div>
 <nav class="main-nav" aria-label="Main">${nav}</nav>
 </div></header>
@@ -83,12 +83,12 @@ ${ld}
     return `</div></main>
 <footer class="site-footer"><div class="wrap">
 <div class="fcols">
-<div><h2>prayertim.blog</h2><p>Prayer times, azan timetables and Hijri dates for every country, with plain-language guides to how they are calculated.</p></div>
+<div><h2>prayertim.com</h2><p>Prayer times, azan timetables and Hijri dates for every country, with plain-language guides to how they are calculated.</p></div>
 <div><h2>Explore</h2><ul><li><a href="/prayer-times/">All countries A–Z</a></li><li><a href="/blog/">Blog &amp; guides</a></li><li><a href="/methodology/">How we calculate</a></li></ul></div>
 <div><h2>Popular cities</h2><ul>${pop}</ul></div>
 <div><h2>Site</h2><ul><li><a href="/about/">About us</a></li><li><a href="/contact/">Contact us</a></li><li><a href="/privacy-policy/">Privacy policy</a></li><li><a href="/terms/">Terms of service</a></li><li><a href="/disclaimer/">Disclaimer</a></li></ul></div>
 </div>
-<p class="copy">&copy; ${ctx.BY} prayertim.blog. All rights reserved. Prayer times are calculated and may differ from your local mosque; see the <a href="/disclaimer/">disclaimer</a>.</p>
+<p class="copy">&copy; ${ctx.BY} prayertim.com. All rights reserved. Prayer times are calculated and may differ from your local mosque; see the <a href="/disclaimer/">disclaimer</a>.</p>
 </div></footer>
 <div class="cookie" id="cookie" role="dialog" aria-label="Notice about cookies and local storage" hidden>
 <p>This site saves your calculation settings in your browser, and Google and its partners may use cookies to show and measure ads. See our <a href="/privacy-policy/">privacy policy</a> for details and choices.</p>
@@ -152,7 +152,7 @@ ${ld}
 function buildAll(ctx) {
   const { SITE, EMAIL, countries, ARTICLES, write, BUILD_LONG, BUILD_ISO } = ctx;
   const L = make(ctx);
-  const BRAND = ' | prayertim.blog';
+  const BRAND = ' | prayertim.com';
   const nCities = countries.reduce((a, c) => a + c.cities.length, 0);
   const nameCount = {};
   for (const c of countries) for (const ct of c.cities) nameCount[ct.name] = (nameCount[ct.name] || 0) + 1;
@@ -187,14 +187,14 @@ ${L.liveTable(rows, 'City', 'Today\'s prayer times (each city in its own local t
 <p style="margin-top:14px"><a class="btn" href="/prayer-times/">See all ${countries.length} countries</a></p>
 </section>
 <section class="card"><h2>Accurate namaz times, explained</h2>
-<p>prayertim.blog calculates the five daily prayer times from the position of the sun at your exact location. Fajr begins at true dawn, Dhuhr just after the sun passes its highest point, Asr when an object's shadow reaches a set length, Maghrib at sunset and Isha when evening twilight ends. Because every one of these depends on latitude, longitude and the date, a timetable for one city cannot be copied to another a few hundred kilometres away.</p>
+<p>prayertim.com calculates the five daily prayer times from the position of the sun at your exact location. Fajr begins at true dawn, Dhuhr just after the sun passes its highest point, Asr when an object's shadow reaches a set length, Maghrib at sunset and Isha when evening twilight ends. Because every one of these depends on latitude, longitude and the date, a timetable for one city cannot be copied to another a few hundred kilometres away.</p>
 <p>Scholars and institutions use slightly different angles for Fajr and Isha, and two schools of thought define Asr differently. We start each country on the method most commonly used there and let you change it in one click. Read the full explanation on our <a href="/methodology/">methodology page</a> or in our guides below.</p>
 <h3>What you can do here</h3>
 <ul><li>See today's times and a live countdown to the next prayer for any listed city.</li><li>Open a month-by-month timetable you can print, with Gregorian and Hijri dates.</li><li>Switch between calculation methods, Standard or Hanafi Asr, and 12 or 24-hour time.</li><li>Check the Qibla direction from the city you choose.</li></ul>
 </section>
 <section class="card"><h2>Guides from the blog</h2>${L.postCards(ARTICLES.slice(0, 3))}<p style="margin-top:14px"><a href="/blog/">All guides →</a></p></section>`;
-    const ld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'prayertim.blog', url: SITE + '/', description: 'Prayer times, azan timetables and Hijri dates for every country.' },
-      { '@context': 'https://schema.org', '@type': 'Organization', name: 'prayertim.blog', url: SITE + '/', logo: SITE + '/apple-touch-icon.png', email: EMAIL }];
+    const ld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'prayertim.com', url: SITE + '/', description: 'Prayer times, azan timetables and Hijri dates for every country.' },
+      { '@context': 'https://schema.org', '@type': 'Organization', name: 'prayertim.com', url: SITE + '/', logo: SITE + '/apple-touch-icon.png', email: EMAIL }];
     write('/', L.page({ path: '/', active: '/', title: 'Prayer Times Today: Namaz & Azan Timetable Worldwide' + BRAND, desc: `Accurate prayer times for ${nCities.toLocaleString('en-US')} cities in ${countries.length} countries: today's Fajr, Dhuhr, Asr, Maghrib and Isha, monthly timetables, Hijri dates and Qibla.`, ld }, body));
   })();
 
@@ -327,9 +327,9 @@ ${L.liveTable(rows, 'City', `Today's prayer times in ${c.name} (local time)`)}
     for (const a of ARTICLES) {
       const url = `/blog/${a.slug}/`, bc2 = bc.concat([[url, a.title]]);
       const rel = (a.related || []).map(T).filter(Boolean);
-      const ld = [L.crumbLd(bc2), { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.desc, datePublished: a.date, dateModified: BUILD_ISO, author: { '@type': 'Organization', name: 'prayertim.blog Editorial Team', url: SITE + '/about/' }, publisher: { '@type': 'Organization', name: 'prayertim.blog', logo: { '@type': 'ImageObject', url: SITE + '/apple-touch-icon.png' } }, mainEntityOfPage: SITE + url, image: SITE + '/og-image.png' }];
+      const ld = [L.crumbLd(bc2), { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.desc, datePublished: a.date, dateModified: BUILD_ISO, author: { '@type': 'Organization', name: 'prayertim.com Editorial Team', url: SITE + '/about/' }, publisher: { '@type': 'Organization', name: 'prayertim.com', logo: { '@type': 'ImageObject', url: SITE + '/apple-touch-icon.png' } }, mainEntityOfPage: SITE + url, image: SITE + '/og-image.png' }];
       const body = `${L.crumbs(bc2)}<article class="card article"><h1>${esc(a.title)}</h1>
-<p class="byline">By the prayertim.blog Editorial Team · Published ${new Date(a.date + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</p>
+<p class="byline">By the prayertim.com Editorial Team · Published ${new Date(a.date + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</p>
 ${a.html}
 <div class="callout">Find today's prayer times for your city: <a href="/prayer-times/">browse all countries</a> or use the search box at the top of the page. Calculated times are a guide; follow your local mosque or scholar for rulings.</div>
 </article>
