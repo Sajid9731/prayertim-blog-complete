@@ -70,7 +70,7 @@ ${ld}
     return `<body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
-<a class="logo" href="/" aria-label="prayertim.com home">${LOGO}<b>prayertim<span>.blog</span></b></a>
+<a class="logo" href="/" aria-label="prayertim.com home">${LOGO}<b>prayertim<span>.com</span></b></a>
 <div class="searchbar"><input id="q" type="search" placeholder="Search city or country…" autocomplete="off" aria-label="Search for a city or country" role="combobox" aria-expanded="false" aria-controls="sres"><ul class="sres" id="sres" hidden></ul></div>
 <nav class="main-nav" aria-label="Main">${nav}</nav>
 </div></header>
